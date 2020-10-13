@@ -1,1 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
 
+int main()
+{
+    int T;
+    cin>>T;
+    while(T--)
+    {
+        int H,P;
+        cin>>H>>P;
+        if(H>2*P)
+            cout<<"0\n";
+        else
+            cout<<"1\n";
+    }
+}
